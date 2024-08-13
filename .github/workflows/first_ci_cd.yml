@@ -1,0 +1,29 @@
+
+name: First CI CD
+
+on:
+  push:
+    branches: [ "develop", "main" ]
+  pull_request:
+    branches: [ "main", "develop" ]
+
+jobs:
+  first step start scipt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run a one-line script
+        run: echo Hello, world!
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+      - name: start script
+        run: sh kettu_koira.sh
+  second jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: start second script
+        run: sh file1.sh
+
