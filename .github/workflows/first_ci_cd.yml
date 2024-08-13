@@ -28,7 +28,7 @@ jobs:
         run: sh file1.sh
   third_job:
     runs-on: ubuntu-latest
-      steps:
+    steps:
       - uses: actions/checkout@v4
       - name: ls command
         run: ls -la
