@@ -20,7 +20,7 @@ jobs:
           echo test, and deploy your project.
       - name: start script
         run: sh kettu_koira.sh
-  second jobs:
+  second_jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
