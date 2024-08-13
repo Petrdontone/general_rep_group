@@ -1,1 +1,5 @@
-echo " hello, world"
+echo "delete script going"
+
+echo "jonny jonny"
+
+echo "end delete files"

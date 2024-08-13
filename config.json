@@ -1,1 +1,5 @@
-echo "delete script going"
+{
+  "name": "Peter",
+  "lname" "Yasnetsov",
+  "age": "42"
+}
